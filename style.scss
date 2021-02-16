@@ -1,0 +1,40 @@
+$color-dark: #445161;
+$width-site: 1172px;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: $width-site;
+    margin: 0 auto;
+}
+
+.product-name {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0 20px;
+    font-family: Arial;
+    &__heading {
+        font-size: 64px;
+        margin-bottom: 40px;
+        font-weight: normal;
+    }
+    &__wrapper {
+        background-color: $color-dark;
+    }
+    &__img {
+        width: 469px;
+        height: 214px;
+        background-color: white;
+    }
+    &__list {
+        list-style: none;
+        &_item {
+            margin-bottom: 10px;
+        }
+    }
+
+}
