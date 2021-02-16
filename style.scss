@@ -1,4 +1,5 @@
 $color-dark: #445161;
+$color-text: #333;
 $width-site: 1172px;
 
 * {
@@ -9,6 +10,23 @@ $width-site: 1172px;
 .container {
     width: $width-site;
     margin: 0 auto;
+}
+
+.heading {
+    font-size: 30px;
+    color: $color-dark;
+    line-height: 36px;
+    font-family: Arial;
+    font-weight: normal;
+    margin-bottom: 17px;
+}
+
+.paragraph {
+    font-size: 16px;
+    color: $color-text;
+    line-height: 24px;
+    font-family: Arial;
+    margin-bottom: 11px;
 }
 
 .product-name {
@@ -37,4 +55,18 @@ $width-site: 1172px;
         }
     }
 
+}
+
+.about-product {
+    display: flex;
+    justify-content: space-between;
+    padding: 45px 0 50px;
+    &__text {
+        margin-right: 90px;
+    }
+    &__img {
+        height: 245px;
+        width: 430px;
+        background-color: $color-dark;
+    }
 }
