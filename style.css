@@ -15,6 +15,7 @@
   font-family: Arial;
   font-weight: normal;
   margin-bottom: 17px;
+  text-align: center;
 }
 
 .paragraph {
@@ -71,6 +72,10 @@
   padding: 45px 0 50px;
 }
 
+.about-product__heading {
+  text-align: left;
+}
+
 .about-product__text {
   margin-right: 90px;
 }
@@ -90,7 +95,6 @@
 }
 
 .advantages__heading {
-  text-align: center;
   margin-bottom: 29px;
 }
 
@@ -122,5 +126,47 @@
   position: absolute;
   left: 0;
   top: 5px;
+}
+
+.screenshots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.screenshots__item {
+  width: 49%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 27px;
+}
+
+.screenshots__img {
+  height: 153px;
+}
+
+.screenshots__heading {
+  font-size: 24px;
+  line-height: 30px;
+  text-align: left;
+  margin-bottom: 13px;
+}
+
+.screenshots__heading_main {
+  margin-top: 25px;
+  margin-bottom: 45px;
+}
+
+.screenshots__text {
+  margin-left: 14px;
 }
 /*# sourceMappingURL=style.css.map */
