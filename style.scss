@@ -242,7 +242,7 @@ $width-site: 1172px;
     &__item {
         width: 300px;
         background-color: $color-dark;
-        padding: 14px 1px 20px 1px;
+        padding: 14px 2px 20px;
         border-radius: 5px;
         box-sizing: border-box;
         &_heading {
@@ -299,6 +299,7 @@ $width-site: 1172px;
         &_first-list {
             list-style: none;
             margin-top: 18px;
+            font-family: Arial;
         }
         &_second-list {
             display: flex;
