@@ -33,6 +33,21 @@ $width-site: 1172px;
     margin-bottom: 11px;
 }
 
+.button {
+    text-transform: uppercase;
+    color: $color-dark;
+    background-color: white;
+    text-decoration: none;
+    padding: 16px 9px;
+    display: block;
+    text-align: center;
+    margin: 0 auto ;
+    font-family: Arial;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+}
+
 .product-name {
     color: white;
     display: flex;
@@ -189,5 +204,51 @@ $width-site: 1172px;
         color: $color-name;
         font-size: 14px;
         line-height: 18px;
+    }
+}
+
+.buy {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    list-style: none;
+    margin-bottom: 48px;
+    &__heading {
+        margin-top: 45px;
+    }
+    &__item {
+        width: 300px;
+        background-color: $color-dark;
+        padding: 14px 1px 20px 1px;
+        border-radius: 5px;
+        box-sizing: border-box;
+        &_heading {
+            color:white;
+            font-size: 24px;
+            line-height: 30px;
+        }
+        &_list {
+            text-align: left;
+            list-style-position: inside;
+            color: white;
+            margin-left: 19px; 
+            margin-top: 7px;  
+            font-family: Arial;
+            font-size: 14px;
+            line-height: 24px;
+        }
+        &_price {
+            background-color: white;
+            display: block;
+            font-size: 40px;
+            line-height: 30px;
+            text-align: center;
+            padding: 25px 0 16px;
+        }
+        &_button {
+            width: calc(300px - 40px);
+            margin-top: 16px;
+            border-radius: 5px;
+        }
     }
 }
