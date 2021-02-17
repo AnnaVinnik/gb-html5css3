@@ -80,4 +80,47 @@
   width: 430px;
   background-color: #445161;
 }
+
+.advantages {
+  padding-top: 25px;
+}
+
+.advantages__wrapper {
+  background-color: #F5F5F5;
+}
+
+.advantages__heading {
+  text-align: center;
+  margin-bottom: 29px;
+}
+
+.advantages__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  list-style: none;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.advantages__list_item {
+  width: 45%;
+  padding-left: 40px;
+  margin-bottom: 33px;
+  position: relative;
+}
+
+.advantages__list_item::before {
+  content: "";
+  width: 34px;
+  height: 35px;
+  background-image: url(img/plus-icon.svg);
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 5px;
+}
 /*# sourceMappingURL=style.css.map */

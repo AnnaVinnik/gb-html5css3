@@ -1,5 +1,6 @@
 $color-dark: #445161;
 $color-text: #333;
+$color-grey: #F5F5F5;
 $width-site: 1172px;
 
 * {
@@ -70,3 +71,37 @@ $width-site: 1172px;
         background-color: $color-dark;
     }
 }
+
+.advantages {
+    padding-top: 25px;
+    &__wrapper {
+        background-color:$color-grey;
+    }
+    &__heading {
+        text-align: center;
+        margin-bottom: 29px;
+    }
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        justify-content: space-between;
+        &_item {
+            width: 45%;
+            padding-left: 40px;
+            margin-bottom: 33px;
+            position: relative;
+        }
+        &_item::before {
+            content: "";
+            width: 34px;
+            height: 35px;
+            background-image: url(img/plus-icon.svg);
+            display: block;
+            position: absolute;
+            left: 0;
+            top: 5px;
+        }
+    }
+}
+
