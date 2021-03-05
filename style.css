@@ -307,7 +307,7 @@
 .buy__item {
   width: 300px;
   background-color: #445161;
-  padding: 14px 1px 20px 1px;
+  padding: 14px 2px 20px;
   border-radius: 5px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -377,6 +377,7 @@
 .contacts__address_first-list {
   list-style: none;
   margin-top: 18px;
+  font-family: Arial;
 }
 
 .contacts__address_second-list {
