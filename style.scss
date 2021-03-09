@@ -81,6 +81,8 @@ $width-site: 1172px;
         font-size: 64px;
         margin-bottom: 40px;
         font-weight: normal;
+        color: white;
+        font-size: 60px;
     }
     &__wrapper {
         background-color: $color-dark;
@@ -94,6 +96,7 @@ $width-site: 1172px;
         list-style: none;
         &_item {
             margin-bottom: 10px;
+            display: flex;
         }
     }
 }
