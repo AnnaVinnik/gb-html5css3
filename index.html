@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f1f064da39.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <title>Site</title>
 </head>
@@ -21,8 +22,16 @@
                             <li class="product-name__list_item"><img src="img/check-mark.svg" alt="mark"> Tell us about the advantages and merits</li>
                             <li class="product-name__list_item"><img src="img/check-mark.svg" alt="mark"> Associate the page with the payment system</li>
                         </ul>
+                        <form class="product-name__form" action="">
+                            <input class="input product-name__input" autofocus type="text" name="myText" placeholder="Your name">
+                            <input class="input product-name__input" type="email" name="email" placeholder="Your emeil">
+                            <input class="input product-name__input" type="text" name="myTel" placeholder="(123) 555-9876">
+                            <button class="input product-name__input_button" type="button" name="button" formtarget="_self">Send</button>
+                        </form>
                     </div>
-                    <div class="product-name__img"></div>
+                    <video class="product-name__video" controls>
+                        <source src="video/videoplayback.mp4" type="video/mp4">
+                    </video>
                 </div>
             </div>
         </figure>
@@ -37,7 +46,7 @@
                         Pariatur iure ab sunt nesciunt, quibusdam odio iste cumque itaque, ipsa vel exercitationem ullam quos aut nostrum cupiditate fuga quaerat quam animi dolores. Sequi itaque, unde perferendis nemo debitis dolor.
                     </p>
                 </div>
-                <img  class="about-product__img" src="img/dark.svg" alt="">
+                <img  class="about-product__img" src="img/about-product-img.jpg" alt="">
             </div>
         </section>
     </header>
@@ -72,7 +81,7 @@
                 <h3 class="heading screenshots__heading_main">Screenshots</h3>
                 <div class="screenshots">
                     <figure class="screenshots__item">
-                        <img class="screenshots__img" src="img/screenshots-1.svg" alt="">
+                        <img class="screenshots__img" src="img/screenshots-img.jpg" alt="screenshot">
                         <div class="screenshots__text">
                             <figcaption class="heading screenshots__heading">The description for the image</figcaption>
                             <p class="paragraph">
@@ -81,7 +90,7 @@
                         </div>
                     </figure>
                     <figure class="screenshots__item">
-                        <img class="screenshots__img" src="img/screenshots-1.svg" alt="">
+                        <img class="screenshots__img" src="img/screenshots-img.jpg" alt="screenshot">
                         <div class="screenshots__text">
                             <figcaption class="heading screenshots__heading">The description for the image</figcaption>
                             <p class="paragraph">
@@ -90,7 +99,7 @@
                         </div>
                     </figure>
                     <figure class="screenshots__item">
-                        <img class="screenshots__img" src="img/screenshots-1.svg" alt="">
+                        <img class="screenshots__img" src="img/screenshots-img.jpg" alt="screenshot">
                        <div class="screenshots__text">
                             <figcaption class="heading screenshots__heading">The description for the image</figcaption>
                             <p class="paragraph">
@@ -99,7 +108,7 @@
                        </div>
                     </figure>
                     <figure class="screenshots__item">
-                        <img class="screenshots__img" src="img/screenshots-1.svg" alt="">
+                        <img class="screenshots__img" src="img/screenshots-img.jpg" alt="screenshot">
                         <div class="screenshots__text">
                             <figcaption class="heading screenshots__heading">The description for the image</figcaption>
                             <p class="paragraph">
@@ -114,7 +123,7 @@
                     <h3 class="heading reviews__heading">Reviews</h3>
                     <div class="reviews">
                         <figure class="reviews__item">
-                            <img class="reviews__img" src="img/screenshots-1.svg" alt="">
+                            <img class="reviews__img" src="img/review-img.jpg" alt="photo">
                             <div class="reviews__text">
                                 <p class="paragraph reviews__paragraph"> 
                                     Porro officia cumque sint deleniti nemo facere rem vitae odit inventore cum odio, iste quia doloribus autem aperiam nulla ea neque reprehenderit. Libero doloribus, possimus officiis sapiente necessitatibus commodi consectetur?
@@ -123,7 +132,7 @@
                             </div>
                         </figure>
                         <figure class="reviews__item">
-                            <img class="reviews__img" src="img/screenshots-1.svg" alt="">
+                            <img class="reviews__img" src="img/review-img.jpg" alt="photo">
                             <div class="reviews__text">
                                 <p class="paragraph reviews__paragraph">
                                     Porro officia cumque sint deleniti nemo facere rem vitae odit inventore cum odio, iste quia doloribus autem aperiam nulla ea neque reprehenderit. Libero doloribus, possimus officiis sapiente necessitatibus commodi consectetur?
@@ -132,7 +141,7 @@
                             </div>
                         </figure>
                         <figure class="reviews__item">
-                            <img class="reviews__img" src="img/screenshots-1.svg" alt="">
+                            <img class="reviews__img" src="img/review-img.jpg" alt="photo">
                             <div class="reviews__text">
                                 <p class="paragraph reviews__paragraph">
                                     Porro officia cumque sint deleniti nemo facere rem vitae odit inventore cum odio, iste quia doloribus autem aperiam nulla ea neque reprehenderit. Libero doloribus, possimus officiis sapiente necessitatibus commodi consectetur?
@@ -141,7 +150,7 @@
                             </div>
                         </figure>
                         <figure class="reviews__item">
-                            <img class="reviews__img" src="img/screenshots-1.svg" alt="">
+                            <img class="reviews__img" src="img/review-img.jpg" alt="photo">
                             <div class="reviews__text">
                                 <p class="paragraph reviews__paragraph">
                                     Porro officia cumque sint deleniti nemo facere rem vitae odit inventore cum odio, iste quia doloribus autem aperiam nulla ea neque reprehenderit. Libero doloribus, possimus officiis sapiente necessitatibus commodi consectetur?
@@ -152,7 +161,8 @@
                     </div>
                 </div c>
             </section>
-            <section>
+            <section class="buy__wrapper">
+                <img src="img/buy.jpg" class="buy__background" alt="background">
                 <div class="container">
                     <h3 class="heading buy__heading">Buy it now</h3>
                     <ul class="buy">
@@ -234,10 +244,10 @@
                                 </li>
                             </ul>
                             <ul class="contacts__address_second-list">
-                                <li><a class="contacts__address_item" href=""><img src="img/twitter.svg" alt="twitter"></a></li>
-                                <li><a class="contacts__address_item" href=""><img src="img/vk.svg" alt="vk"></a></li>
-                                <li><a class="contacts__address_item" href=""><img src="img/google.svg" alt="google"></a></li>
-                                <li><a class="contacts__address_item" href=""><img src="img/facebook.svg" alt="facebook"></a></li>
+                                <li><a class="contacts__address_item" href=""><i class="fab fa-twitter social"></i></a></li>
+                                <li><a class="contacts__address_item" href=""><i class="fab fa-vk social"></i></a></li>
+                                <li><a class="contacts__address_item" href=""><i class="fab fa-google-plus-g social"></i></a></li>
+                                <li><a class="contacts__address_item" href=""><i class="fab fa-facebook-f social"></i></a></li>
                             </ul>
                         </div>
                     </div>

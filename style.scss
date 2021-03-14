@@ -71,6 +71,18 @@ $width-site: 1172px;
     box-sizing: border-box;
 }
 
+.social {
+    font-size: 30px;
+    color: #7d8b9c;
+    background-color: white;
+    border-radius: 50%;
+    padding: 8px;
+    width: 31px;
+    height: 31px;
+    text-align: center;
+    line-height: 32px;
+}
+
 .product-name {
     color: white;
     display: flex;
@@ -85,12 +97,28 @@ $width-site: 1172px;
         font-size: 60px;
     }
     &__wrapper {
-        background-color: $color-dark;
+        background-image: url(img/main-background.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        
     }
-    &__img {
-        width: 469px;
-        height: 214px;
-        background-color: white;
+    &__video {
+        width: 320px;
+        align-self: flex-start;
+        
+    }
+    &__form {
+        display: flex;
+        flex-direction: column;
+    }
+    &__input {
+        height: 30px;
+        padding-top: 10px;
+    }
+    &__input_button {
+        height: 30px;
+        padding-top: 5px;
     }
     &__list {
         list-style: none;
@@ -114,7 +142,7 @@ $width-site: 1172px;
     &__img {
         height: 245px;
         width: 430px;
-        background-color: $color-dark;
+        background-color: white;
     }
 }
 
@@ -122,6 +150,7 @@ $width-site: 1172px;
     padding-top: 25px;
     &__wrapper {
         background-color: $color-grey;
+        background: linear-gradient(170deg, #e4e4e4, #f1f1f4, #ffffff, #efefef, #e0e0e0);
     }
     &__heading {
         margin-bottom: 29px;
@@ -238,8 +267,15 @@ $width-site: 1172px;
     align-items: flex-end;
     list-style: none;
     margin-bottom: 48px;
+    &__background {
+        position: absolute;
+        z-index: -1;
+        opacity: 0.7;
+        width: 100%;
+    }
     &__heading {
-        margin-top: 45px;
+        padding-top: 45px;
+        color: #1b2027;
     }
     &__item {
         width: 300px;
@@ -283,6 +319,7 @@ $width-site: 1172px;
     justify-content: center;
     &__wrapper {
         background-color: $color-dark;
+        background: radial-gradient(#7d869e 5%, #788696 55%, #606e7d 95%);
         padding-top: 25px;
         padding-bottom: 43px;
     }

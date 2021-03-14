@@ -72,6 +72,18 @@
           box-sizing: border-box;
 }
 
+.social {
+  font-size: 30px;
+  color: #7d8b9c;
+  background-color: white;
+  border-radius: 50%;
+  padding: 8px;
+  width: 31px;
+  height: 31px;
+  text-align: center;
+  line-height: 32px;
+}
+
 .product-name {
   color: white;
   display: -webkit-box;
@@ -88,16 +100,41 @@
   font-size: 64px;
   margin-bottom: 40px;
   font-weight: normal;
+  color: white;
+  font-size: 60px;
 }
 
 .product-name__wrapper {
-  background-color: #445161;
+  background-image: url(img/main-background.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
-.product-name__img {
-  width: 469px;
-  height: 214px;
-  background-color: white;
+.product-name__video {
+  width: 320px;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.product-name__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.product-name__input {
+  height: 30px;
+  padding-top: 10px;
+}
+
+.product-name__input_button {
+  height: 30px;
+  padding-top: 5px;
 }
 
 .product-name__list {
@@ -106,6 +143,9 @@
 
 .product-name__list_item {
   margin-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .about-product {
@@ -129,7 +169,7 @@
 .about-product__img {
   height: 245px;
   width: 430px;
-  background-color: #445161;
+  background-color: white;
 }
 
 .advantages {
@@ -137,7 +177,8 @@
 }
 
 .advantages__wrapper {
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
+  background: linear-gradient(170deg, #e4e4e4, #f1f1f4, #ffffff, #efefef, #e0e0e0);
 }
 
 .advantages__heading {
@@ -228,7 +269,7 @@
 }
 
 .reviews__wrapper {
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
   padding-top: 25px;
   padding-bottom: 18px;
 }
@@ -300,8 +341,16 @@
   margin-bottom: 48px;
 }
 
+.buy__background {
+  position: absolute;
+  z-index: -1;
+  opacity: 0.7;
+  width: 100%;
+}
+
 .buy__heading {
-  margin-top: 45px;
+  padding-top: 45px;
+  color: #1b2027;
 }
 
 .buy__item {
@@ -356,6 +405,7 @@
 
 .contacts__wrapper {
   background-color: #445161;
+  background: radial-gradient(#7d869e 5%, #788696 55%, #606e7d 95%);
   padding-top: 25px;
   padding-bottom: 43px;
 }
@@ -410,6 +460,6 @@
 }
 
 .footer__bottom_wrapper {
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
 }
 /*# sourceMappingURL=style.css.map */
