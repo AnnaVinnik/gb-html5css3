@@ -71,6 +71,18 @@ $width-site: 1172px;
     box-sizing: border-box;
 }
 
+.social {
+    font-size: 30px;
+    color: #7d8b9c;
+    background-color: white;
+    border-radius: 50%;
+    padding: 8px;
+    width: 31px;
+    height: 31px;
+    text-align: center;
+    line-height: 32px;
+}
+
 .product-name {
     color: white;
     display: flex;
@@ -85,11 +97,16 @@ $width-site: 1172px;
         font-size: 60px;
     }
     &__wrapper {
-        background-color: rgb(252, 197, 47);
+        background-image: url(img/main-background.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        
     }
     &__video {
-        width: 469px;
-        align-self: center;
+        width: 320px;
+        align-self: flex-start;
+        
     }
     &__form {
         display: flex;
@@ -125,7 +142,7 @@ $width-site: 1172px;
     &__img {
         height: 245px;
         width: 430px;
-        background-color: $color-dark;
+        background-color: white;
     }
 }
 
@@ -133,6 +150,7 @@ $width-site: 1172px;
     padding-top: 25px;
     &__wrapper {
         background-color: $color-grey;
+        background: linear-gradient(170deg, #e4e4e4, #f1f1f4, #ffffff, #efefef, #e0e0e0);
     }
     &__heading {
         margin-bottom: 29px;
@@ -301,6 +319,7 @@ $width-site: 1172px;
     justify-content: center;
     &__wrapper {
         background-color: $color-dark;
+        background: radial-gradient(#7d869e 5%, #788696 55%, #606e7d 95%);
         padding-top: 25px;
         padding-bottom: 43px;
     }
